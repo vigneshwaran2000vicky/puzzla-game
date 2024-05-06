@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+}
+
+#puzzle {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;line-height: 30px;
+  margin-top: 20px;color:blueviolet;
+  padding: 20px;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(238, 244, 247);
+  display: flex;
+  justify-content: center;
+  color:black;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+button{
+  width: 25%;
+  height: 7vh;color: rgb(65, 23, 105);
+  border-radius: 10px;
+  border: 2px solid rebeccapurple;
+  cursor: pointer;font-weight: bold;
+  transition: ease-in-out 0.8s;
+}
+button:hover{
+  width: 25%;color: rgb(248, 245, 255);
+  height: 7vh;
+  border-radius: 10px;
+  border: 2px solid rgb(250, 248, 252);
+  background-color: rebeccapurple;
+  cursor: pointer;font-weight: bold;
+  border: 2px solid blueviolet;
+  transition: ease-in-out 0.8s;
+  transform: scale(0.91);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background: linear-gradient(250deg,rgb(247, 250, 66),rgb(22, 196, 196));
+}
